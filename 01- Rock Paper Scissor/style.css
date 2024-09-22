@@ -1,0 +1,117 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;   
+}
+.container{
+  width:100%;
+  height:100vh;
+  background-color: hsl(264, 48%, 79%);
+  color: #040508;
+}
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#heading{
+  margin-top:2rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.score-board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.player-score{
+  margin-right:2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid #040508;
+  padding: 1.3rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 0.3rem #291833;
+  background-color: #140a1a;
+  color: #b39fbf;
+}
+.com-score{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid #040508;
+  padding: 1.3rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 0.3rem #291833;
+  background-color: #140a1a;
+  color: #b39fbf;
+}
+.count{
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+.move{
+  margin-top:2rem;
+  font-size: 2rem;
+  font-family: 600;
+}
+.moves-left{
+  margin-top:0.3rem;
+  font-size: 1.4rem;
+  color:#160c1c;
+  font-weight: 500;
+}
+.options{
+  margin-top:1.5rem;
+  padding: 10px;
+}
+.btn{
+  padding: 1.8rem;
+  margin: 1rem 2rem;
+  box-shadow: 0 0 1rem #291833;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btn i{
+  font-size: 3.3rem;
+}
+.btn i:active{
+  font-size: 3.6rem;
+}
+.com-choice{
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #3f145c;
+}
+.result{
+  margin-top:0.5rem;
+  padding:20px;
+  box-shadow: 0 0 1rem rbga(0,0,0,0.1);
+  border:none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.restart{
+  margin-top: 0.5rem;
+  padding:12px;
+  font-size: 1.2rem;
+  border:none;
+  outline: none;
+  border-radius: 10px;
+  background-color:#13071c;
+  color: #dccce8;
+  border-radius: 10px;
+}
+.restart:active{
+  font-size: 1.4rem;
+  box-shadow: 0 0 1rem rgba(19, 19, 25, 0.5);
+}
